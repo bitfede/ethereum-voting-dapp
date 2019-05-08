@@ -1,6 +1,6 @@
-# Decentralized application for Voting
+# Decentralized application prototype for Voting
 
-## Powered by Ethereum
+## Powered by Ethereum, engineered by Federico D.
 
 This is a personal project that I'm doing to strengthen my blockchain developer skills.
 
