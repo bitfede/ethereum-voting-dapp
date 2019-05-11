@@ -1,11 +1,11 @@
-pragma solidity 0.4.2;
+pragma solidity ^0.5.0;
 
 contract Election {
-  //Read/Write candidate [state variable]
-  string public candidate
+  //Read/Write candidate
+  string public candidate;
 
   //constructor
-  function Election() public {
+  constructor() public {
     candidate = "Candidate 1";
   }
 }
