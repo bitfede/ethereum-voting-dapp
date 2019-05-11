@@ -1,7 +1,7 @@
 pragma solidity 0.4.2;
 
 contract Election {
-  //Read/Write candidate
+  //Read/Write candidate [state variable]
   string public candidate
 
   //constructor
