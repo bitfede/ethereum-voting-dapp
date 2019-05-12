@@ -12,6 +12,8 @@ contract Election {
   //Read/Write candidates
   mapping(uint => Candidate) public candidates;
 
+  //store candidates count
+  uint public candidatesCount;
 
 
 
