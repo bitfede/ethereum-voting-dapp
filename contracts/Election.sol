@@ -15,6 +15,9 @@ contract Election {
   //store candidates count
   uint public candidatesCount;
 
-
+  function addCandidate (string _name) private {
+    candidatesCount ++;
+    candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);
+  }
 
 }
