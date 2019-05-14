@@ -34,7 +34,7 @@ contract Election {
     require(!voters[msg.sender]);
 
     //retuire a valid candidate
-    retuire(_candidateId > 0 && _candidateId <= candidatesCount);
+    require(_candidateId > 0 && _candidateId <= candidatesCount);
 
     //record that voter has voted
     voters[msg.sender] = true;
